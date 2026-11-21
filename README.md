@@ -211,38 +211,6 @@ python -m nbconvert --to notebook --execute --inplace --ExecutePreprocessor.time
 
 Exercise 3 is a Markdown-only notebook and does not need execution.
 
----
-
-## GitHub submission
-
-A local Git repository has been prepared and committed. To publish it:
-
-```powershell
-git remote add origin https://github.com/<your-username>/Practical-Laboratory-Activities.git
-git branch -M main
-git push -u origin main
-```
-
-Use the repository name **`Practical-Laboratory-Activities`**. A normal Git
-push is recommended over GitHub's browser upload because
-`outputs/Exercise4/cleaned_reviews.csv` is larger than 25 MB (but well below
-GitHub's 100 MB per-file limit).
-
----
-
-## Submission checklist
-
-- [x] Exercise 1 notebook executed; scatter plot and Excel workbook generated.
-- [x] Exercise 2 inputs, blended image, and comparison figure generated.
-- [x] Exercise 3 single Markdown cell with exact prompt, tool, camera plan,
-      storyboard, and honest result status.
-- [x] Exercise 4 dataset loaded, cleaned, grouped into `items`, and visualised.
-- [x] Exercise 5 Gradio chatbot implemented, launched, and screenshotted.
-- [x] All five notebooks use the required `ExerciseN_MayankMishra.ipynb` names.
-- [x] `requirements.txt` and `README.md` included.
-- [ ] Push the local repository to GitHub and test the public URL.
-
----
 
 ## Libraries used
 
